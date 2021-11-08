@@ -3,7 +3,7 @@ import requests
 
 def create_folder():
     name_folder = input('Введите название папки: ')
-    token = 'AQAAAABaFcUuAADLW7j3ovn36kdOnotEioG0zX0'
+    token = ''
     url = 'https://cloud-api.yandex.net/v1/disk/resources/'
     headers = {
                 'Content-Type': 'application/json',
@@ -15,7 +15,7 @@ def create_folder():
     return str(response)
 def delete_folder():
     name_folder = input('Введите название папки: ')
-    token = 'AQAAAABaFcUuAADLW7j3ovn36kdOnotEioG0zX0'
+    token = ''
     url = 'https://cloud-api.yandex.net/v1/disk/resources/'
     headers = {
         'Content-Type': 'application/json',
